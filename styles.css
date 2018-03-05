@@ -1,0 +1,27 @@
+
+
+header, table {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Muli';
+  border-collapse: collapse;
+}
+
+table tr { background: #d8ab4c; border-bottom: 1px solid #666; cursor: pointer; }
+table th { background: #333; color: #ccc; padding: 5px;}
+table td { padding:6px 0; border: 0; }
+
+tr.repo:hover { background: #262626; color: #ccc; }
+tr.info { display:none; }
+
+.gridbox {
+  display: block;
+  word-wrap: break-word;
+  text-align: left;
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+  background: #eee;
+}
+.gridbox strong { display: inline-block; width: 10%; vertical-align: top; }
+.gridbox p { display: inline-block; padding: 0 5px; margin: 0; width: 85%; }
